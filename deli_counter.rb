@@ -1,7 +1,7 @@
 def line(arr)
   if arr.length == 0
     puts "The line is currently empty."
-  else 
+  else
     new_arr = []
     arr.each.with_index(1) do |name, i|
       new_arr << "#{i}. #{name}"
