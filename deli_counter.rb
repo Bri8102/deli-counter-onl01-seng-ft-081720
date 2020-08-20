@@ -11,7 +11,7 @@ def line(arr)
 end
 
 def take_a_number(arr,name)
-    puts "welcome, #{name}. You are #{arr.length} in line."
+    puts "Welcome, #{name}. You are number #{arr.length + 1} in line."
     arr << name
   end
   #katz_deli.each_with_index do |name, i|
