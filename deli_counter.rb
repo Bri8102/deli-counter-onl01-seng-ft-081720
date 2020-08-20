@@ -14,6 +14,5 @@ def take_a_number(arr,name)
     puts "Welcome, #{name}. You are number #{arr.length + 1} in line."
     arr << name
   end
-  #katz_deli.each_with_index do |name, i|
-  #  puts "The line is currently: #{i+1}.  #{name}"
- #end
+
+def now_serving(arr)
