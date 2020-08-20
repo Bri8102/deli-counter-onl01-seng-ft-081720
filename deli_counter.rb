@@ -4,7 +4,7 @@ def line(arr)
   else
     new_arr = []
     arr.each.with_index(1) do |name, i|
-      new_arr << "#{i}. #{name}"
+      new_arr << " #{i}. #{name} "
     puts "The line is currently: #{new_arr}"
   end
 end
