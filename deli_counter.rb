@@ -5,9 +5,9 @@ def line(arr)
     arr.each do |name|
       new_arr.push("#{i}. #{name}")
       i += 1
-  end 
+  end
     puts "The line is currently: #{new_arr.join(" ")}"
-  else 
+  else
     puts "The line is currently empty."
   end
 end
