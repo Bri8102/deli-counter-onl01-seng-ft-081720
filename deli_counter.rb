@@ -6,6 +6,6 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli.each.with_index(1) do |name, i|
-    puts "The line is currently: #{i}. #{name}"
+    puts "The line is currently: #{katz_deli[i]}. #{name}"
  end
 end
