@@ -1,6 +1,6 @@
 def line(katz_deli)
-  counter = 1
-  if katz_deli.length < Counter
+  counter = 0
+  if katz_deli.length == Counter
     puts "The line is currently empty."
   end
 end
