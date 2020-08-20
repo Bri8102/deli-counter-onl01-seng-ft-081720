@@ -1,14 +1,12 @@
 def line(arr)
-  if arr.length >= 0
-    new_arr = []
-    i = 1
-    arr.each do |name|
-      new_arr.push("#{i}. #{name}")
-      i += 1
-  end
-    puts "The line is currently: #{new_arr.join(" ")}"
-  else
+  if arr.length == 0
     puts "The line is currently empty."
+  else 
+    new_arr = []
+    arr.each.with_index(1) do |name, i|
+      new_arr << "#{i}. #{name}"
+  end
+    puts "The line is currently: #{new_arr}"
   end
 end
 
